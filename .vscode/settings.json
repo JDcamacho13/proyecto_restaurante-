@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000000,
+    "editor.cursorSmoothCaretAnimation": true,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+}
