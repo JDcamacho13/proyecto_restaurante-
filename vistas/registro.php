@@ -3,18 +3,18 @@
     <head>
         <title>Guestaugant</title>
         <meta charset="utf-8">
-        <LINK REL=StyleSheet HREF="estilo.css" TITLE="Contemporaneo">
+        <LINK REL=StyleSheet HREF="../estilo.css" TITLE="Contemporaneo">
     </head>
     <body>
         <div id="box">
             <br /><br />
-            <font size="25">Iniciar sesion</font><hr />
-            <form action="login.php" method="POST">
+            <font size="25">Registrar Nuevo Usuario</font><hr />
+            <form action="registro.php" method="POST">
                 <?php
-                    require('registroDB.php');
+                    require('../includes/registroDB.php');
                 ?>
                 <br />
-                <p><label for="cedula">Cedula de identidad: </label><br />
+                <p><label for="cedula">Cédula de identidad: </label><br />
                 <input class="text" type="text" name="cedula" maxlength="50" required> <br /><br />
                 
                 <label for="nombre">Nombre: </label><br />
